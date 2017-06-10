@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+
+    tools:context="com.example.hp.demochat.MainActivity">
+
+    <ImageView
+        android:id="@+id/imgv1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:background="#6897bb"
+        android:src="@drawable/logo" />
+
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_below="@id/imgv1"
+
+
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:text="BUBBLE CHAT"
+        android:textColor="#f7f7f7"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15dp"
+        android:text="Simple Mobile Chat and Notes."
+        android:textColor="#f7f7f7"
+        android:textSize="16dp"
+        android:textStyle="italic" />
+
+
+</RelativeLayout>

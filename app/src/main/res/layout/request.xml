@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_toRightOf="@+id/imageView1">
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="10sp"
+            android:hint="Name"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+
+        <Button
+            android:id="@+id/btnAccept"
+            android:layout_width="wrap_content"
+            android:layout_height="30sp"
+            android:layout_below="@+id/txtName"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="10sp"
+            android:background="#000"
+            android:text="Accept"
+            android:textColor="#89bfe5"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnDecline"
+            android:layout_width="wrap_content"
+            android:layout_height="30sp"
+            android:layout_alignTop="@+id/btnAccept"
+            android:layout_marginLeft="10sp"
+            android:layout_toRightOf="@id/btnAccept"
+            android:background="#000"
+            android:text=" Decline "
+            android:textColor="#89bfe5"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+</RelativeLayout>
